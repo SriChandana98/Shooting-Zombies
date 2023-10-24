@@ -1,0 +1,204 @@
+{
+    "1": {
+        "question": "You're 4th place right now in a race. What place will you be in when you pass the person in 3rd place?",
+        "options": {
+            "a": "1st",
+            "b": "2nd",
+            "c": "3rd",
+            "d": "None of the above"
+        },
+        "answer": "c"
+    },
+    "2": {
+        "question": "How many months have 28 days?",
+        "options": {
+            "a": "2",
+            "b": "1",
+            "c": "All of them",
+            "d": "Depends if there's a leap year or not"
+        },
+        "answer": "c" 
+    }
+    ,
+    "3": {
+        "question": "The answer is really big. ",
+        "options": {
+            "a": "THE ANSWER.",
+            "b": "Really big.",
+            "c": "An elephant.",
+            "d": "The data given is insufficient."
+        },
+        "answer": "a" 
+    },
+    "4": {
+        "question": "Divide 30 by half and add ten. ",
+        "options": {
+            "a": "40.5",
+            "b": "50",
+            "c": "70",
+            "d": "I know this is a trick question, so NONE. Ha!"
+        },
+        "answer": "c" 
+    },
+    "5": {
+        "question": "There are two clocks of different colors: The green clock is broken and doesn't run at all, but the yellow clock loses one second every 24 hours. Which clock is more accurate? ",
+        "options": {
+            "a": "The green clock",
+            "b": "The yellow clock",
+            "c": "Neither",
+            "d": "Both"
+        },
+        "answer": "a" 
+    },
+    "6": {
+        "question": "Who is responsible to measure the Project’s performance?",
+        "options": {
+            "a": "Scrum Master",
+            "b": "Delivery Manager",
+            "c": "Development Team",
+            "d": "Product Owner"
+        },
+        "answer": "d" 
+    },
+    "7": {
+        "question": "What is a Sprint Review?",
+        "options": {
+            "a": "Activity to Introspect and Adapt",
+            "b": "Activity to improve Scrum Processes",
+            "c": "Activity to plan for the next Sprint",
+            "d": "Activity to plan for the release"
+        },
+        "answer": "a" 
+    },
+    "8": {
+        "question": "Who should necessarily attend the Daily Standup meeting?",
+        "options": {
+            "a": "The Scrum Team",
+            "b": "The Development Team",
+            "c": "The Development Team and the Product Owner",
+            "d": "The Scrum Team and the Stakeholders"
+        },
+        "answer": "b" 
+    },
+    "9": {
+        "question": "How many pillars does sikes hall have?",
+        "options": {
+            "a": "6",
+            "b": "9",
+            "c": "7",
+            "d": "8"
+        },
+        "answer": "d" 
+    },
+    "10": {
+        "question": "What are Clemsons main colors?",
+        "options": {
+            "a": "Orange",
+            "b": "Purple",
+            "c": "White",
+            "d": "All of them"
+        },
+        "answer": "d" 
+    },
+    "11":{
+        "question": "What is Clemson main library name?",
+        "options": {
+            "a": "Gunnin Architecture Library",
+            "b": "R.M Cooper Library",
+            "c": "Clemson Library",
+            "d": "None of the above"
+        },
+        "answer": "b"
+    },
+    "12": {
+        "question": "Who is Clemson Football head coach?",
+        "options": {
+            "a": "Dabo Swinney",
+            "b": "Mario Critobal",
+            "c": "Dave Doeren",
+            "d": "None of the above"
+        },
+        "answer": "a" 
+    },
+    "13":{
+        "question": "What brand sponsors Clemson?",
+        "options": {
+            "a": "Adidas",
+            "b": "Under Armor",
+            "c": "Puma",
+            "d": "Nike"
+        },
+        "answer": "d"  
+    },
+    "14":{
+        "question": "What is the Clemson motto?",
+        "options": {
+            "a": "Who shall separate us now?",
+            "b": "Reach for the Stars",
+            "c": "For the Land and its People",
+            "d": "The spirit makes the master"
+        },
+        "answer": "d"  
+    },
+    "15":{
+        "question": "The Clemson Tigers are based in which American state?",
+        "options": {
+            "a": "New York State",
+            "b": "Virginia",
+            "c": "Colorado",
+            "d": "South Carolina"
+        },
+        "answer": "d"  
+    },
+    "16":{
+        "question": "The home field of the Clemson Tigers football team is known by what nickname?",
+        "options": {
+            "a": "Death Valley",
+            "b": "Hell's Kitchen",
+            "c": "Easy Street",
+            "d": "Struggle Street"
+        },
+        "answer": "a"   
+    },
+    "17":{
+        "question": "What is P.A.W",
+        "options": {
+            "a": "Passionate About Winning",
+            "b": "Purpose, Aspiration, and Wisdom",
+            "c": "Positively Aiming for Success",
+            "d": "Profoundly Ambitious Winners"
+        },
+        "answer": "a"   
+    },
+    "18":{
+        "question": "Who is the world’s biggest producer of oil?",
+        "options": {
+            "a": "Saudi Arabia",
+            "b": "United States",
+            "c": "Canada",
+            "d": "United Arab Emirates"
+        },
+        "answer": "b"   
+    },
+    "19":{
+        "question": "Where would you find the world’s largest desert?",
+        "options": {
+            "a": "Saudi Arabia",
+            "b": "China",
+            "c": "Egypt",
+            "d": "Antartica"
+        },
+        "answer": "d"   
+    },
+    "20":{
+        "question": "What element is the periodic number 19, highlighted by the letter K?",
+        "options": {
+            "a": "Potassium",
+            "b": "Sodium",
+            "c": "Krypton",
+            "d": "Nickel"
+        },
+        "answer": "a"   
+    }
+
+}
