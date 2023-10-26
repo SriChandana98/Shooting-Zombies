@@ -35,17 +35,20 @@ To enjoy the "Shooting Zombies" game, follow these step-by-step setup and deploy
 ### Setting Up Locally:
 1) Clone the Repository:
 ->Start by cloning the game's code from the GitHub repository. You can do this by running the following command in your terminal:
-git clone https://github.com/SriChandana98/Shooting-Zombies.git
+
+```git clone https://github.com/SriChandana98/Shooting-Zombies.git```
+
 
 2) Navigate to the Directory:
 ->Change the working directory to the location where the repository was cloned. Use the cd command in the terminal to do this.
-cd Shooting-Zombies
+```cd Shooting-Zombies```
 
 3) Opent the Game:
 You should find the HTML file for the game within the src folder in the repository directory. Open the HTML file in your web browser to start playing the game.
 
 ### Deployment via GitHub Pages:
 For online game link you can access the below url provided.
+
 https://srichandana98.github.io/Shooting-Zombies/src/
 
 
