@@ -205,13 +205,122 @@
   player.applyWeaponProperties();
   var zombies = [];
   var Zombie = function() {
-    let s = rand(20, 30);
+    let s = rand(27, 33);
     let a = rand(zombies.length < player.hardcoreMode ? 25 : 50) === 0;
     let sp = rand(zombies.length + 10) === 0;
     let speed = (sp ? 2 : 1) * randFloat(0, 0.5);
     speed += zombies.length / 20;
     let x = a ? rand(-s * rand(2, 10), can.width + s * rand(2, 10)) : rand([-s * rand(2, 10), can.width + s * rand(2, 10)]);
     let y = a ? rand([-s * rand(2, 10), can.height + s * rand(2, 10)]) : rand(-s * rand(2, 10), can.height + s * rand(2, 10));
+    
+    
+
+     //Edit1
+    //If case scenarios for good zombies
+    if (player.zombiesKilled === 25 ){
+
+      s = 22
+      //id = 1
+      return {
+        x: x,
+        y: y,
+        wx: x,
+        wy: y,
+        s: s,
+        a: 0,
+        d: 1,
+        special: sp,
+        color: [135, 206, 235],
+        eyeColor:[255, 0, 0],
+        speed: speed < 2 * player.speed ? speed : player.speed * 1.5
+      };
+            
+      //player.s = player.s + 10
+    }else if(player.zombiesKilled === 50 ){
+
+      s = 23
+      //id = 1
+      return {
+        x: x,
+        y: y,
+        wx: x,
+        wy: y,
+        s: s,
+        a: 0,
+        d: 1,
+        special: sp,
+        color: [0, 84, 119],
+        eyeColor:[58, 95, 11],
+        speed: speed < 2 * player.speed ? speed : player.speed * 1.5
+      };
+
+
+
+
+    }else if(player.zombiesKilled === 100 ){
+
+      s = 24
+      //id = 1
+      return {
+        x: x,
+        y: y,
+        wx: x,
+        wy: y,
+        s: s,
+        a: 0,
+        d: 1,
+        special: sp,
+        color: [255, 192, 203],
+        eyeColor:[127, 0, 255],
+        speed: speed < 2 * player.speed ? speed : player.speed * 1.5
+      };
+
+
+
+
+    } else if(player.zombiesKilled === 150 ){
+
+      s = 25
+      //id = 1
+      return {
+        x: x,
+        y: y,
+        wx: x,
+        wy: y,
+        s: s,
+        a: 0,
+        d: 1,
+        special: sp,
+        color: [255, 165, 0],
+        eyeColor:[0,0,0],
+        speed: speed < 2 * player.speed ? speed : player.speed * 1.5
+      };
+
+
+
+
+    } else if(player.zombiesKilled === 200 ){
+
+      s = 26
+      //id = 1
+      return {
+        x: x,
+        y: y,
+        wx: x,
+        wy: y,
+        s: s,
+        a: 0,
+        d: 1,
+        special: sp,
+        color: [255,0,255],
+        eyeColor:[255,255,255],
+        speed: speed < 2 * player.speed ? speed : player.speed * 1.5
+      };
+
+
+    }
+
+
     return {
       x: x,
       y: y,
@@ -221,7 +330,7 @@
       a: 0,
       d: 1,
       special: sp,
-      color: [rand(50, 100), rand(100, 150), rand(50)],
+      color: [rand(256), rand(256), rand(256)],
       eyeColor: sp ? [255, 255, 255] : rand([
         [rand(200, 255), rand(20), rand(20)],
         [rand(20), rand(200, 255), rand(200, 255)],
@@ -580,6 +689,13 @@
             p.hit = true;
           player.zombiesKilled++;
           zombieKillCount++;
+
+          //Checking if killed zombie is the special one
+          if (z.s === 22 || z.s === 23 || z.s === 24 || z.s === 25 || z.s === 26 ){
+            player.s = player.s + 10
+          }
+
+
           if (zombies.length == player.hardcoreMode && player.showMode) {
             player.say("Hardcore Mode Entered!");
             player.mark = frames;
@@ -715,6 +831,13 @@
          player.x - player.s < p.x + p.s &&
          player.y + player.s > p.y - p.s &&
          player.y - player.s < p.y + p.s) {
+
+          //Reward for not killing the speaicl zombie
+          if (p.s === 22 || p.s === 23 || p.s === 24 || p.s === 25 || p.s === 26){
+            console.log(p)
+            player.lives = player.lives + 2;
+          } 
+          
         player.lives--;
         if (player.lives < 0) {
           if (!gameover) {
@@ -730,6 +853,44 @@
         } else zombies[i] = new Zombie();
       }
     }
+
+    //Edit4
+    if (zombieKillCount > 25 && zombieKillCount <= 50 ){
+      //ctx.fillStyle = "rgba(0, 0, 0, 0.5)";
+      //ctx.fillRect(0, 0, can.width, can.height);
+      ctx.fillStyle = "white"; // Set text color to white
+      ctx.font = "24px sans-serif"; // Set font size and family
+      ctx.fillText("Riddle 1: Eyes as fiery as roses, In a sea of day's endless hues. I'm a character you're bound to choose.", can.width / 2, 30);
+      
+    } else if (zombieKillCount > 50 && zombieKillCount <= 100 ){
+      //ctx.fillStyle = "rgba(0, 0, 0, 0.5)";
+      //ctx.fillRect(0, 0, can.width, can.height);
+      ctx.fillStyle = "white"; // Set text color to white
+      ctx.font = "24px sans-serif"; // Set font size and family
+      ctx.fillText("Riddle 2: Eyes like emerald leaves in spring, My body's tint, where the dolphins sing. Can you guess the colors I contain?", can.width / 2, 30);
+    } else if (zombieKillCount > 100 && zombieKillCount <= 150){
+     // ctx.fillStyle = "rgba(0, 0, 0, 0.5)";
+      //ctx.fillRect(0, 0, can.width, can.height);
+      ctx.fillStyle = "white"; // Set text color to white
+      ctx.font = "24px sans-serif"; // Set font size and family
+      ctx.fillText("Riddle 3: Violet eyes that gleam and wink, In a body as lovely as the petals of a flower's brink. Who am I, with colors so divine?", can.width / 2, 30);
+    } else if (zombieKillCount > 150 && zombieKillCount <= 200){
+      //ctx.fillStyle = "rgba(0, 0, 0, 0.5)";
+      //ctx.fillRect(0, 0, can.width, can.height);
+      ctx.fillStyle = "white"; // Set text color to white
+      ctx.font = "24px sans-serif"; // Set font size and family
+      ctx.fillText("Riddle 4: Eyes as dark as the night's profound, In a body of warmth, where citrus is found. Unravel the colors that define me.", can.width / 2, 30);
+    } else if (zombieKillCount > 200 && zombieKillCount <= 250 ){
+      //ctx.fillStyle = "rgba(0, 0, 0, 0.5)";
+      //ctx.fillRect(0, 0, can.width, can.height);
+      ctx.fillStyle = "white"; // Set text color to white
+      ctx.font = "24px sans-serif"; // Set font size and family
+      ctx.fillText("Riddle 5: Eyes of alabaster, in a vivid space, Within a body of magenta's embrace. Guess my name; don't take it slow.", can.width / 2, 30);
+    }
+
+
+
+
     if (gameover) {
       can.style.cursor = "default";
       ctx.beginPath();
