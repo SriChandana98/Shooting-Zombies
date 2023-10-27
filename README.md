@@ -17,7 +17,10 @@ You must correctly answer the random question to reload the gun and resume the a
 ### 4.Movement is Key: 
 The "W," "A," "S," and "D" keys, as well as the arrow keys, can be used to move your character. You must make use of these controls in order to avoid danger and to open up better shooting possibilities.
 
-### 5.Survival is the Goal: 
+### 5.Finding the Special zombie:
+After surviving in the game for long enough, a special zombie will be released. You will be asked to solve the riddle which will help you with recognizing the features of the special zombie like eyes and body color. Once you figure out the riddle you should recognize the zombie and avoid killing it. You will need multiple people communicating with you and helping you to find the zombie. If you kill the zombie, the size of your character increases, which will decrease the mobility of the character and thus make you prone to getting attacked by other zombies. If you skillfully avoid the special zombie and absorb it, then you will be awarded with an extra life. So Solve the riddle and keep an eye on the special zombie!!!      
+
+### 6.Survival is the Goal: 
 The ultimate goal is to survive as long as possible while avoiding waves of zombies. Your score will increase the longer you live, and the longer you repel the zombies.
 
 In "Shooting Zombies," success requires quick reflexes, precise shooting and the capacity to think clearly under pressure and provide accurate answers to questions. It is an exciting and challenging game that rewards dexterity and mental quickness. Now load up your weapon, take on the zombie assault, and show everyone you can survive the end of the world!
