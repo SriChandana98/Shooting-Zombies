@@ -35,6 +35,7 @@
 }(window));
 
 (function play(gameover) {
+  var zombieKillCount = 0;
   can.style.cursor = "none";
   var mouse = {
     x: can.width / 2,
@@ -570,6 +571,7 @@
           if (p.hits == player.hits)
             p.hit = true;
           player.zombiesKilled++;
+          zombieKillCount++;
           if (zombies.length == player.hardcoreMode && player.showMode) {
             player.say("Hardcore Mode Entered!");
             player.mark = frames;
@@ -757,6 +759,11 @@
       ctx.stroke();
     }
     frames++;
+
+    ctx.fillStyle = "white";
+    ctx.font = "20px roboto mono";
+    ctx.fillText("Zombies Killed: " + zombieKillCount, 10, can.height - 30);
+
     requestAnimationFrame(update);
   }());
   can.on("mousedown", function() {
