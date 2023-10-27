@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>CodePen - Zombie Shooter Game</title>
+    <title>Shooting-Zombie Game</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -10,7 +10,74 @@
     <canvas>Your browser does not support HTML5 Canvas :(</canvas>
     <!-- partial -->
 
-    <div id="customDialog" class="hidden">
+    <div id = "customDialog" class="hidden">
+      <div class="question">
+        <h2 id="dialogQuestion"></h2>
+      </div>
+
+      <div class="custom-radio">
+        <div class="column">
+      
+          
+          <input type="radio" name="reloadOption" value="" id="option1" />
+          <label for="option1" class="radio-label" id="labelOption1"></label>
+        </div>
+
+        <div class="column">
+      
+          
+          <input type="radio" name="reloadOption" value="" id="option2" />
+          <label for="option2" class="radio-label" id="labelOption2"></label>
+        </div>
+
+        <div class="column">
+      
+          
+          <input type="radio" name="reloadOption" value="" id="option3" />
+          <label for="option3" class="radio-label" id="labelOption3"></label>
+        </div>
+
+        <div class="column">
+      
+          
+          <input type="radio" name="reloadOption" value="" id="option4" />
+          <label for="option4" class="radio-label" id="labelOption4"></label>
+        </div>
+
+        <button id="confirmButton" class="button">Reload</button>
+      </div>
+
+
+      <!--div class="row custom-radio">
+        <div class="column">
+      
+          
+          <input type="radio" name="reloadOption" value="" id="option1" />
+          <label for="option1" class="radio-label" id="labelOption1"></label><br /> 
+        </div>
+        <div class="column">
+  
+          <input type="radio" name="reloadOption" value="" id="option2" />
+          <label for="option2" class="radio-label" id="labelOption2"></label><br /> 
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+       
+          <input type="radio" name="reloadOption" value="" id="option3" />
+          <label for="option3" class="radio-label" id="labelOption3"></label><br /> 
+        </div>
+        <div class="column">
+   
+          <input type="radio" name="reloadOption" value="" id="option4" />
+          <label for="option4" class="radio-label" id="labelOption4"></label><br /> 
+        </div>
+      </div>
+      <button id="confirmButton">Reload</button>
+    </div-->
+
+    
+    <!--<div id="customDialog" class="hidden">
       <h2 id="dialogQuestion"></h2>
       <input type="radio" name="reloadOption" value="" id="option1" />
       <label for="option1" id="labelOption1"></label><br />
@@ -21,8 +88,14 @@
       <input type="radio" name="reloadOption" value="" id="option4" />
       <label for="option4" id="labelOption4"></label><br />
       <button id="confirmButton">Reload</button>
-    </div>
+    </div>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js">
 
-    <script src="./script.js"></script>
+    </script>
+    <script>
+     
+
+    </script>
   </body>
 </html>

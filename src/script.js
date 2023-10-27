@@ -486,12 +486,20 @@
   document.getElementById('customDialog').classList.remove('hidden');
   document.getElementById('dialogQuestion').textContent = randomQuestion.question;
 
+  var options= []
   var radioButtons = document.querySelectorAll('input[name="reloadOption"]');
   for (var i = 0; i < radioButtons.length; i++) {
     radioButtons[i].value = randomQuestion.options[i];
     document.getElementById('labelOption' + (i + 1)).textContent = randomQuestion.options[i];
+    options.push(randomQuestion.options[i]);
+    debugger
   }
   }
+  /*$("#labelOption1").append(`${randomQuestion.options[0]}`);
+  $("#labelOption2").append(`${randomQuestion.options[1]}`);*/
+  
+  
+
   }
 
   // Function to handle reloading based on the selected option

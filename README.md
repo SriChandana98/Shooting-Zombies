@@ -41,6 +41,7 @@ To enjoy the "Shooting Zombies" game, follow these step-by-step setup and deploy
 
 2) Navigate to the Directory:
 ->Change the working directory to the location where the repository was cloned. Use the cd command in the terminal to do this.
+
 ```cd Shooting-Zombies```
 
 3) Opent the Game:
