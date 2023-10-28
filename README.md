@@ -10,19 +10,19 @@ Here is how to achieve the goal:
 The main objective is to shoot and kill the oncoming zombies before they get to you. The more quickly you can respond to inquiries and reload your weapon, the faster you can eliminate the zombies always moving towards you. Usually, a headshot will work!
 
 ![image](https://github.com/SriChandana98/Shooting-Zombies/assets/42368026/9161c7f1-98ea-400f-98d2-afd85fe2024a)
-Fig 1: The character is initially placed in the center as shown above.
+**Fig 1**: The character is initially placed in the center as shown above.
 
 ### 2.Reload Your Gun: 
 Hit the **R** button to reload your weapon. This is an essential activity since it gives you the means to continue fighting. Reloading presents a problem, though, and is not an easy task. Upon pressing **R**, an arbitrary question appears.
 
 ![image](https://github.com/SriChandana98/Shooting-Zombies/assets/42368026/d8e11446-64a4-4924-93c1-63fce3cb7935)
-Fig 2: Once you are out of ammo, you will see "reload" written on the character. Now you need to press **R** to Reload. 
+**Fig 2**: Once you are out of ammo, you will see "reload" written on the character. Now you need to press **R** to Reload. 
 
 ### 3.Answer Correctly to Reload: 
 You must correctly answer the random question to reload the gun and resume the action. This gives the game a fun and instructive twist while challenging your knowledge and mental acuity. If your response is accurate, your gun will load, and you can start shooting zombies.
 
 ![image](https://github.com/SriChandana98/Shooting-Zombies/assets/42368026/1c658fca-e62d-4549-8868-4654c260db2c)
-Fig 3:After pressing **R**, you will see a dialog box with a question. 
+**Fig 3**: After pressing **R**, you will see a dialog box with a question. 
 
 ### 4.Movement is Key: 
 The **W**, **A**, **S**, and **D** keys, as well as the arrow keys, can be used to move your character. You must make use of these controls in order to avoid danger and to open up better shooting possibilities.
@@ -31,13 +31,13 @@ The **W**, **A**, **S**, and **D** keys, as well as the arrow keys, can be used 
 After surviving in the game for long enough, a special zombie will be released. You will be asked to solve the riddle which will help you with recognizing the features of the special zombie like eyes and body color. Once you figure out the riddle you should recognize the zombie and avoid killing it. You will need multiple people communicating with you and helping you to find the zombie. If you kill the zombie, the size of your character increases, which will decrease the mobility of the character and thus make you prone to getting attacked by other zombies. If you skillfully avoid the special zombie and absorb it, then you will be awarded with an extra life. So Solve the riddle and keep an eye on the special zombie!!!     
 
 ![image](https://github.com/SriChandana98/Shooting-Zombies/assets/42368026/1c658fca-e62d-4549-8868-4654c260db2c)
-Fig 4: Here you will see the Riddle displayed on the top.
+**Fig 4**: Here you will see the Riddle displayed on the top.
 
 ![image](https://github.com/SriChandana98/Shooting-Zombies/assets/42368026/e85f48d8-a875-4f59-a39c-58b69ed4e2e9)
-Fig 5: The highlighted zombie is the probable guess and now we should avoid killing it. The guess should be made by the people helping us.
+**Fig 5**: The highlighted zombie is the probable guess and now we should avoid killing it. The guess should be made by the people helping us.
 
 ![image](https://github.com/SriChandana98/Shooting-Zombies/assets/42368026/7616ce59-cbd7-4fc6-8a3f-378dab325ac5)
-Fig 6: If we kill the special zombie, we are penalized by increasing the size of our character, which restricts our mobility. 
+**Fig 6:** If we kill the special zombie, we are penalized by increasing the size of our character, which restricts our mobility. 
 
 ### 6.Survival is the Goal: 
 The ultimate goal is to survive as long as possible while avoiding waves of zombies. Your score will increase the longer you live, and the longer you repel the zombies. As you stay longer you will unlock specialized weapons like lasers and fire gun.
