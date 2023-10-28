@@ -37,10 +37,15 @@ After surviving in the game for long enough, a special zombie will be released. 
 **Fig 5**: The highlighted zombie is the probable guess and now we should avoid killing it. The guess should be made by the people helping us.
 
 ![image](https://github.com/SriChandana98/Shooting-Zombies/assets/42368026/7616ce59-cbd7-4fc6-8a3f-378dab325ac5)
+![image](https://github.com/SriChandana98/Shooting-Zombies/assets/42368026/8f8a9341-f13c-4e35-bb86-b5f7f39c651d)
+
 **Fig 6:** If we kill the special zombie, we are penalized by increasing the size of our character, which restricts our mobility. 
 
 ### 6.Survival is the Goal: 
 The ultimate goal is to survive as long as possible while avoiding waves of zombies. Your score will increase the longer you live, and the longer you repel the zombies. As you stay longer you will unlock specialized weapons like lasers and fire gun.
+
+![image](https://github.com/SriChandana98/Shooting-Zombies/assets/42368026/51c7168a-285b-43d0-b47c-2a080b09110c)
+**Fig 7**: The above picture shows the enlarged character with advanced weapon Mega Shotgun 
 
 In "Shooting Zombies," success requires quick reflexes, precise shooting and the capacity to think clearly under pressure and provide accurate answers to questions. It is an exciting and challenging game that rewards dexterity and mental quickness. Now load up your weapon, take on the zombie assault, and show everyone you can survive the end of the world!
 
