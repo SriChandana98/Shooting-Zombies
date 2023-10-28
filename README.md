@@ -5,23 +5,39 @@
 In "Shooting Zombies," evading an unrelenting army of zombies is the primary goal. The only way to defend oneself from these advancing zombies is to respond to arbitrary questions while dispatching oncoming threats accurately. Your ability to blend quick reflexes, mobility tactics, and accurate shooting will determine how well you do in this game.
 
 Here is how to achieve the goal:
-![image](https://github.com/SriChandana98/Shooting-Zombies/assets/42368026/90bdbe5b-84f2-4af7-a650-5de6fdfabca1)
-
 
 ### 1.Eliminate Zombies: 
 The main objective is to shoot and kill the oncoming zombies before they get to you. The more quickly you can respond to inquiries and reload your weapon, the faster you can eliminate the zombies always moving towards you. Usually, a headshot will work!
 
+![image](https://github.com/SriChandana98/Shooting-Zombies/assets/42368026/9161c7f1-98ea-400f-98d2-afd85fe2024a)
+Fig 1: 
+
 ### 2.Reload Your Gun: 
-Hit the "r" button to reload your weapon. This is an essential activity since it gives you the means to continue fighting. Reloading presents a problem, though, and is not an easy task. Upon pressing "r," an arbitrary question appears.
+Hit the "R" button to reload your weapon. This is an essential activity since it gives you the means to continue fighting. Reloading presents a problem, though, and is not an easy task. Upon pressing "r," an arbitrary question appears.
+
+![image](https://github.com/SriChandana98/Shooting-Zombies/assets/42368026/d8e11446-64a4-4924-93c1-63fce3cb7935)
+Fig 2:
 
 ### 3.Answer Correctly to Reload: 
 You must correctly answer the random question to reload the gun and resume the action. This gives the game a fun and instructive twist while challenging your knowledge and mental acuity. If your response is accurate, your gun will load, and you can start shooting zombies.
+
+![image](https://github.com/SriChandana98/Shooting-Zombies/assets/42368026/1c658fca-e62d-4549-8868-4654c260db2c)
+Fig 3:
 
 ### 4.Movement is Key: 
 The "W," "A," "S," and "D" keys, as well as the arrow keys, can be used to move your character. You must make use of these controls in order to avoid danger and to open up better shooting possibilities.
 
 ### 5.Finding the Special zombie:
-After surviving in the game for long enough, a special zombie will be released. You will be asked to solve the riddle which will help you with recognizing the features of the special zombie like eyes and body color. Once you figure out the riddle you should recognize the zombie and avoid killing it. You will need multiple people communicating with you and helping you to find the zombie. If you kill the zombie, the size of your character increases, which will decrease the mobility of the character and thus make you prone to getting attacked by other zombies. If you skillfully avoid the special zombie and absorb it, then you will be awarded with an extra life. So Solve the riddle and keep an eye on the special zombie!!!      
+After surviving in the game for long enough, a special zombie will be released. You will be asked to solve the riddle which will help you with recognizing the features of the special zombie like eyes and body color. Once you figure out the riddle you should recognize the zombie and avoid killing it. You will need multiple people communicating with you and helping you to find the zombie. If you kill the zombie, the size of your character increases, which will decrease the mobility of the character and thus make you prone to getting attacked by other zombies. If you skillfully avoid the special zombie and absorb it, then you will be awarded with an extra life. So Solve the riddle and keep an eye on the special zombie!!!     
+
+![image](https://github.com/SriChandana98/Shooting-Zombies/assets/42368026/1c658fca-e62d-4549-8868-4654c260db2c)
+Fig 4: Here you will see the Riddle displayed on the top.
+
+![image](https://github.com/SriChandana98/Shooting-Zombies/assets/42368026/e85f48d8-a875-4f59-a39c-58b69ed4e2e9)
+Fig 5: The highlighted zombie is the probable guess and now we should avoid killing it. The guess should be made by the people helping us.
+
+![image](https://github.com/SriChandana98/Shooting-Zombies/assets/42368026/7f7dcd31-4712-4d49-a438-5ba0dfb60ade)
+Fig 6: If we kill the special zombie, we are penalized by increasing the size of our character, which restricts our mobility. 
 
 ### 6.Survival is the Goal: 
 The ultimate goal is to survive as long as possible while avoiding waves of zombies. Your score will increase the longer you live, and the longer you repel the zombies.
