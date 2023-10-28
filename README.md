@@ -47,6 +47,12 @@ The ultimate goal is to survive as long as possible while avoiding waves of zomb
 ![image](https://github.com/SriChandana98/Shooting-Zombies/assets/42368026/51c7168a-285b-43d0-b47c-2a080b09110c)
 **Fig 7**: The above picture shows the enlarged character with advanced weapon Mega Shotgun 
 
+### 7. Trick:
+One of the tricks that can be used in emergency times is zooming out the browser window. The arena of the game is much widespread and in the emergency situation like extreme crowding of zombies, one can zoom out of the arena and utilize the space to escape from the crowd.
+
+![image](https://github.com/SriChandana98/Shooting-Zombies/assets/42368026/608300b5-3570-4063-8920-0078a63b2d4a)
+**Fig 8**: The arena increases significantly as seen in the image above
+
 In "Shooting Zombies," success requires quick reflexes, precise shooting and the capacity to think clearly under pressure and provide accurate answers to questions. It is an exciting and challenging game that rewards dexterity and mental quickness. Now load up your weapon, take on the zombie assault, and show everyone you can survive the end of the world!
 
 ## Technology stack used
