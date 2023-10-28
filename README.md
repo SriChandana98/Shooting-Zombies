@@ -5,6 +5,9 @@
 In "Shooting Zombies," evading an unrelenting army of zombies is the primary goal. The only way to defend oneself from these advancing zombies is to respond to arbitrary questions while dispatching oncoming threats accurately. Your ability to blend quick reflexes, mobility tactics, and accurate shooting will determine how well you do in this game.
 
 Here is how to achieve the goal:
+![image](https://github.com/SriChandana98/Shooting-Zombies/assets/42368026/90bdbe5b-84f2-4af7-a650-5de6fdfabca1)
+
+
 ### 1.Eliminate Zombies: 
 The main objective is to shoot and kill the oncoming zombies before they get to you. The more quickly you can respond to inquiries and reload your weapon, the faster you can eliminate the zombies always moving towards you. Usually, a headshot will work!
 
